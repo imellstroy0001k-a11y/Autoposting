@@ -1,0 +1,54 @@
+[app]
+state_db = "./state.sqlite3"
+video_dir = "./videos"
+poll_seconds = 60
+default_interval_hours = 4
+dedupe_scope = "global"
+supported_extensions = [".mp4", ".mov", ".m4v", ".webm"]
+
+[[accounts]]
+id = "youtube_main_1"
+platform = "youtube"
+enabled = true
+video_dir = "./videos/youtube"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tags = ["shorts", "finance"]
+youtube_category_id = "22"
+youtube_privacy_status = "private"
+youtube_client_id = "YOUR_GOOGLE_CLIENT_ID"
+youtube_client_secret = "YOUR_GOOGLE_CLIENT_SECRET"
+youtube_refresh_token = "YOUR_YOUTUBE_REFRESH_TOKEN"
+
+[[accounts]]
+id = "youtube_main_2"
+platform = "youtube"
+enabled = true
+video_dir = "./videos/youtube"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tags = ["shorts"]
+youtube_category_id = "22"
+youtube_privacy_status = "private"
+youtube_client_id = "YOUR_GOOGLE_CLIENT_ID"
+youtube_client_secret = "YOUR_GOOGLE_CLIENT_SECRET"
+youtube_refresh_token = "YOUR_SECOND_YOUTUBE_REFRESH_TOKEN"
+
+[[accounts]]
+id = "tiktok_main_1"
+platform = "tiktok"
+enabled = true
+video_dir = "./videos/tiktok"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tiktok_client_key = "YOUR_TIKTOK_CLIENT_KEY"
+tiktok_client_secret = "YOUR_TIKTOK_CLIENT_SECRET"
+tiktok_access_token = ""
+tiktok_refresh_token = "YOUR_TIKTOK_REFRESH_TOKEN"
+tiktok_privacy_level = "SELF_ONLY"
+tiktok_disable_comment = false
+tiktok_disable_duet = false
+tiktok_disable_stitch = false

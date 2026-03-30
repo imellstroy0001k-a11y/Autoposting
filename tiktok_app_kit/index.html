@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Social Video Poster</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f8fb;
+        --card: #ffffff;
+        --text: #18202a;
+        --muted: #5b6675;
+        --accent: #0f8a5f;
+        --line: #e2e7ef;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #eef4ff 0%, var(--bg) 100%);
+        color: var(--text);
+      }
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 12px 30px rgba(24, 32, 42, 0.06);
+      }
+      h1, h2 { margin: 0 0 16px; }
+      p, li { line-height: 1.6; color: var(--muted); }
+      .badge {
+        display: inline-block;
+        margin-bottom: 14px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: #e9f8f1;
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 600;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 16px;
+        margin-top: 20px;
+      }
+      .item {
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 16px;
+        background: #fbfcfe;
+      }
+      a { color: var(--accent); text-decoration: none; }
+      footer { margin-top: 20px; color: var(--muted); font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <div class="badge">TikTok Content Posting Integration</div>
+        <h1>Social Video Poster</h1>
+        <p>
+          Social Video Poster is a desktop automation tool that helps authorized users publish
+          original short-form videos from a local media library to their own social accounts.
+        </p>
+        <p>
+          The app uses TikTok Login Kit and Content Posting API to let creators connect their own
+          TikTok account and upload videos they own or control. Users explicitly authorize access
+          before any upload happens.
+        </p>
+
+        <div class="grid">
+          <div class="item">
+            <h2>Core Function</h2>
+            <p>Queue local videos and publish them to an authorized TikTok account on a schedule.</p>
+          </div>
+          <div class="item">
+            <h2>User Control</h2>
+            <p>Only the account owner can authorize publishing access for their TikTok account.</p>
+          </div>
+          <div class="item">
+            <h2>Content Scope</h2>
+            <p>The app is intended for original creator-owned content and simple repost scheduling.</p>
+          </div>
+        </div>
+
+        <footer>
+          Contact: mellstroyihor@gmail.com<br />
+          Legal: <a href="./privacy-policy.html">Privacy Policy</a> |
+          <a href="./terms-of-service.html">Terms of Service</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

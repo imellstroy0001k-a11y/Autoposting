@@ -1,0 +1,133 @@
+[app]
+state_db = "./state.sqlite3"
+video_dir = "./videos"
+poll_seconds = 60
+default_interval_hours = 4
+dedupe_scope = "global"
+supported_extensions = [".mp4", ".mov", ".m4v", ".webm"]
+
+[[accounts]]
+id = "tiktok_1"
+platform = "tiktok"
+enabled = true
+video_dir = "./videos/tiktok"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tiktok_client_key = "YOUR_TIKTOK_CLIENT_KEY"
+tiktok_client_secret = "YOUR_TIKTOK_CLIENT_SECRET"
+tiktok_access_token = ""
+tiktok_refresh_token = "YOUR_TIKTOK_REFRESH_TOKEN_ACCOUNT_1"
+tiktok_token_file = "./runtime/tiktok_tokens/tiktok_1.json"
+tiktok_privacy_level = "SELF_ONLY"
+tiktok_disable_comment = false
+tiktok_disable_duet = false
+tiktok_disable_stitch = false
+
+[[accounts]]
+id = "tiktok_2"
+platform = "tiktok"
+enabled = true
+video_dir = "./videos/tiktok"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tiktok_client_key = "YOUR_TIKTOK_CLIENT_KEY"
+tiktok_client_secret = "YOUR_TIKTOK_CLIENT_SECRET"
+tiktok_access_token = ""
+tiktok_refresh_token = "YOUR_TIKTOK_REFRESH_TOKEN_ACCOUNT_2"
+tiktok_token_file = "./runtime/tiktok_tokens/tiktok_2.json"
+tiktok_privacy_level = "SELF_ONLY"
+tiktok_disable_comment = false
+tiktok_disable_duet = false
+tiktok_disable_stitch = false
+
+[[accounts]]
+id = "tiktok_3"
+platform = "tiktok"
+enabled = true
+video_dir = "./videos/tiktok"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tiktok_client_key = "YOUR_TIKTOK_CLIENT_KEY"
+tiktok_client_secret = "YOUR_TIKTOK_CLIENT_SECRET"
+tiktok_access_token = ""
+tiktok_refresh_token = "YOUR_TIKTOK_REFRESH_TOKEN_ACCOUNT_3"
+tiktok_token_file = "./runtime/tiktok_tokens/tiktok_3.json"
+tiktok_privacy_level = "SELF_ONLY"
+tiktok_disable_comment = false
+tiktok_disable_duet = false
+tiktok_disable_stitch = false
+
+[[accounts]]
+id = "tiktok_4"
+platform = "tiktok"
+enabled = true
+video_dir = "./videos/tiktok"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tiktok_client_key = "YOUR_TIKTOK_CLIENT_KEY"
+tiktok_client_secret = "YOUR_TIKTOK_CLIENT_SECRET"
+tiktok_access_token = ""
+tiktok_refresh_token = "YOUR_TIKTOK_REFRESH_TOKEN_ACCOUNT_4"
+tiktok_token_file = "./runtime/tiktok_tokens/tiktok_4.json"
+tiktok_privacy_level = "SELF_ONLY"
+tiktok_disable_comment = false
+tiktok_disable_duet = false
+tiktok_disable_stitch = false
+
+[[accounts]]
+id = "tiktok_5"
+platform = "tiktok"
+enabled = true
+video_dir = "./videos/tiktok"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tiktok_client_key = "YOUR_TIKTOK_CLIENT_KEY"
+tiktok_client_secret = "YOUR_TIKTOK_CLIENT_SECRET"
+tiktok_access_token = ""
+tiktok_refresh_token = "YOUR_TIKTOK_REFRESH_TOKEN_ACCOUNT_5"
+tiktok_token_file = "./runtime/tiktok_tokens/tiktok_5.json"
+tiktok_privacy_level = "SELF_ONLY"
+tiktok_disable_comment = false
+tiktok_disable_duet = false
+tiktok_disable_stitch = false
+
+[[accounts]]
+id = "tiktok_6"
+platform = "tiktok"
+enabled = true
+video_dir = "./videos/tiktok"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tiktok_client_key = "YOUR_TIKTOK_CLIENT_KEY"
+tiktok_client_secret = "YOUR_TIKTOK_CLIENT_SECRET"
+tiktok_access_token = ""
+tiktok_refresh_token = "YOUR_TIKTOK_REFRESH_TOKEN_ACCOUNT_6"
+tiktok_token_file = "./runtime/tiktok_tokens/tiktok_6.json"
+tiktok_privacy_level = "SELF_ONLY"
+tiktok_disable_comment = false
+tiktok_disable_duet = false
+tiktok_disable_stitch = false
+
+[[accounts]]
+id = "tiktok_7"
+platform = "tiktok"
+enabled = true
+video_dir = "./videos/tiktok"
+interval_hours = 4
+title_template = "{stem}"
+description_template = "{description}"
+tiktok_client_key = "YOUR_TIKTOK_CLIENT_KEY"
+tiktok_client_secret = "YOUR_TIKTOK_CLIENT_SECRET"
+tiktok_access_token = ""
+tiktok_refresh_token = "YOUR_TIKTOK_REFRESH_TOKEN_ACCOUNT_7"
+tiktok_token_file = "./runtime/tiktok_tokens/tiktok_7.json"
+tiktok_privacy_level = "SELF_ONLY"
+tiktok_disable_comment = false
+tiktok_disable_duet = false
+tiktok_disable_stitch = false
